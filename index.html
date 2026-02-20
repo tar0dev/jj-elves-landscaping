@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JJ Elves Landscaping - Professional landscaping services">
-    <title>JJ Elves Landscaping</title>
+    <meta name="description" content="JJ's Elves Landscape Company - Professional landscaping services servicing Park Cities, Preston Hollow, Frisco, Plano, and North Dallas">
+    <title>JJ's Elves Landscape Company</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,42 +12,132 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <h2>JJ Elves Landscaping</h2>
+                <h2>JJ's Elves Landscape Company <span class="since">Since 2018</span></h2>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section with Background Image -->
+    <!-- TODO: Replace with actual landscaping photo in /images/hero-bg.jpg -->
     <section class="hero" id="home">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Professional Landscaping Services</h1>
-            <p>Transform your outdoor space with JJ Elves Landscaping</p>
+            <p>Transform your outdoor space with JJ's Elves Landscape Company</p>
+            <p class="service-areas">Servicing Flower Mound, Colleyville, Southlake, etc</p>
             <a href="#contact" class="btn btn-primary">Get a Quote</a>
         </div>
+    </section>
+
+    <!-- Spring Special Flyer Banner -->
+    <section class="spring-special-flyer">
+        <img src="images/JJs_Elves_Landscape_Co._Facebook_Post.png" alt="JJ's Elves Spring Special" class="flyer-image">
     </section>
 
     <!-- Services Section -->
     <section class="services" id="services">
         <div class="container">
             <h2>Our Services</h2>
+
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>Lawn Care</h3>
+                    <!-- TODO: Add image for Lawn Care -->
+                    <h3>Lawn Care & Maintenance</h3>
                     <p>Professional lawn maintenance and care services</p>
                 </div>
                 <div class="service-card">
-                    <h3>Garden Design</h3>
-                    <p>Custom garden design and installation</p>
+                    <!-- TODO: Add image for Garden & Bed Care -->
+                    <h3>Garden & Bed Care</h3>
+                    <p>Beautiful garden and bed maintenance</p>
                 </div>
                 <div class="service-card">
-                    <h3>Tree Services</h3>
-                    <p>Tree trimming, pruning, and removal</p>
+                    <!-- TODO: Add image for Landscape Design -->
+                    <h3>Landscape Design & Installation</h3>
+                    <p>Custom landscape design and professional installation</p>
+                </div>
+                <div class="service-card">
+                    <!-- TODO: Add image for Cleanups -->
+                    <h3>Cleanups</h3>
+                    <p>Seasonal and general property cleanup services</p>
+                </div>
+                <div class="service-card">
+                    <!-- TODO: Add image for Tree Trimming -->
+                    <h3>Tree Trimming</h3>
+                    <p>Expert tree trimming and pruning</p>
+                </div>
+                <div class="service-card">
+                    <!-- TODO: Add image for Gutter Cleanings -->
+                    <h3>Gutter Cleanings</h3>
+                    <p>Thorough gutter cleaning and maintenance</p>
+                </div>
+            </div>
+
+            <!-- Special Services -->
+            <div class="special-services">
+                <h3>Special Services</h3>
+                <div class="special-service-item">
+                    <h4>Holiday Lights Installation</h4>
+                    <p>Professional holiday lighting design and installation to brighten your home or business</p>
+                    <a href="#holiday-lights" class="btn btn-special">Learn More About Holiday Lights</a>
+                </div>
+                <div class="special-service-item">
+                    <h4>Artificial Turf Installation</h4>
+                    <p>High-quality artificial turf for residential and commercial properties</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- TODO: Replace placeholder images with actual project photos -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Our Work</h2>
+            <p class="portfolio-subtitle">Transforming outdoor spaces across North Dallas</p>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Lawn Maintenance</h3>
+                        <p>Beautiful, healthy lawns</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Garden Design</h3>
+                        <p>Custom landscaping</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Holiday Lights</h3>
+                        <p>Festive installations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Tree Services</h3>
+                        <p>Expert trimming & care</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Landscape Installation</h3>
+                        <p>Complete transformations</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" style="background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800');">
+                    <div class="portfolio-overlay">
+                        <h3>Artificial Turf</h3>
+                        <p>Low-maintenance solutions</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +147,7 @@
     <section class="about" id="about">
         <div class="container">
             <h2>About Us</h2>
-            <p>JJ Elves Landscaping provides professional landscaping services with a commitment to quality and customer satisfaction.</p>
+            <p>JJ's Elves Landscape Company provides professional landscaping services with a commitment to quality and customer satisfaction. We proudly serve residential properties, commercial properties, and HOAs throughout the North Dallas area.</p>
         </div>
     </section>
 
@@ -65,9 +155,44 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><strong>Phone:</strong> <a href="tel:469-701-0955">469-701-0955</a></p>
+                <p><strong>Email:</strong> <a href="mailto:jj@jjselves.com">jj@jjselves.com</a></p>
+
+                <div class="contact-social">
+                    <p><strong>Connect With Us:</strong></p>
+                    <div class="social-links-inline">
+                        <a href="https://www.instagram.com/jjselves" target="_blank" rel="noopener noreferrer" class="social-btn-inline instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            Instagram
+                        </a>
+                        <a href="https://www.facebook.com/jjselves" target="_blank" rel="noopener noreferrer" class="social-btn-inline facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
             <form class="contact-form">
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select required>
+                    <option value="">What services are you interested in?</option>
+                    <option value="lawn-care">Lawn Care & Maintenance</option>
+                    <option value="garden-bed">Garden & Bed Care</option>
+                    <option value="landscape-design">Landscape Design & Installation</option>
+                    <option value="cleanups">Cleanups</option>
+                    <option value="tree-trimming">Tree Trimming</option>
+                    <option value="gutter-cleaning">Gutter Cleanings</option>
+                    <option value="holiday-lights">Holiday Lights Installation</option>
+                    <option value="artificial-turf">Artificial Turf Installation</option>
+                    <option value="other">Other</option>
+                </select>
                 <textarea placeholder="Message" rows="5" required></textarea>
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
@@ -77,7 +202,26 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2026 JJ Elves Landscaping. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/jjselves" target="_blank" rel="noopener noreferrer" class="social-btn instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.facebook.com/jjselves" target="_blank" rel="noopener noreferrer" class="social-btn facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                            </svg>
+                            <span>Facebook</span>
+                        </a>
+                    </div>
+                </div>
+                <p>&copy; 2026 JJ's Elves Landscape Company. All rights reserved.</p>
+            </div>
         </div>
     </footer>
 
