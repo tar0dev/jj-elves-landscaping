@@ -80,7 +80,7 @@ body {
     background: linear-gradient(135deg, var(--green) 0%, var(--red) 100%);
     /* TODO: Replace with actual image - uncomment line below and add image to /images/hero-bg.jpg */
     /* background-image: url('images/hero-bg.jpg'); */
-    background-image: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=1920&q=80');
+    background-image: url('https://images.unsplash.com/photo-1599629954294-1881e27a9b4d?w=1920&q=85');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -374,7 +374,7 @@ body {
     /* Optional: Add subtle background pattern */
     background-image:
         linear-gradient(rgba(249, 249, 249, 0.95), rgba(249, 249, 249, 0.95)),
-        url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=1920&q=50');
+        url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=1920&q=50');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
