@@ -12,6 +12,7 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">
+                <img src="images/Logo.png" alt="JJ's Elves Landscape Company Logo" class="logo-image">
                 <h2>JJ's Elves Landscape Company <span class="since">Since 2018</span></h2>
             </div>
             <ul class="nav-menu">
@@ -30,7 +31,7 @@
         <div class="hero-content">
             <h1>Professional Landscaping Services</h1>
             <p>Transform your outdoor space with JJ's Elves Landscape Company</p>
-            <p class="service-areas">Servicing Flower Mound, Colleyville, Southlake, etc</p>
+            <p class="service-areas">Servicing Park Cities, Preston Hollow, Frisco, Plano, North Dallas, Flower Mound, Colleyville, Southlake & More</p>
             <a href="#contact" class="btn btn-primary">Get a Quote</a>
         </div>
     </section>
@@ -47,37 +48,37 @@
             <p class="services-subtitle">Transforming outdoor spaces across North Dallas</p>
 
             <div class="services-grid">
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1592595896551-12b371d546d5?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Lawn Care & Maintenance</h3>
                         <p>Professional lawn maintenance and care services for beautiful, healthy lawns</p>
                     </div>
                 </div>
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Garden & Bed Care</h3>
                         <p>Beautiful garden and bed maintenance with custom landscaping</p>
                     </div>
                 </div>
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1558904541-efa843a96f01?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Landscape Design & Installation</h3>
                         <p>Custom landscape design and professional installation for complete transformations</p>
                     </div>
                 </div>
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Tree Trimming</h3>
                         <p>Expert tree trimming, pruning, and care services</p>
                     </div>
                 </div>
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Cleanups</h3>
                         <p>Seasonal and general property cleanup services</p>
                     </div>
                 </div>
-                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1604709177225-055f99402ea3?w=800&q=85');">
+                <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=800&q=85');">
                     <div class="service-overlay">
                         <h3>Gutter Cleanings</h3>
                         <p>Thorough gutter cleaning and maintenance</p>
@@ -149,11 +150,17 @@
                     </div>
                 </div>
             </div>
-            <form class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <input type="tel" placeholder="Phone Number" required>
-                <select required>
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <!-- Replace YOUR_ACCESS_KEY_HERE with your actual Web3Forms access key -->
+                <!-- Get your free access key at https://web3forms.com -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <input type="hidden" name="subject" value="New Contact Form Submission from JJ's Elves">
+                <input type="hidden" name="from_name" value="JJ's Elves Website">
+
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="service" required>
                     <option value="">What services are you interested in?</option>
                     <option value="lawn-care">Lawn Care & Maintenance</option>
                     <option value="garden-bed">Garden & Bed Care</option>
@@ -165,7 +172,8 @@
                     <option value="artificial-turf">Artificial Turf Installation</option>
                     <option value="other">Other</option>
                 </select>
-                <textarea placeholder="Message" rows="5" required></textarea>
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                 <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
         </div>
